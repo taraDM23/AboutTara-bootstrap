@@ -6,12 +6,16 @@ li {
     margin: 2px;
     border-right: solid 1px lightgrey;
     padding-right: 13px;
+    padding-left: 13px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
-.navlink {
+.nav-link {
     border-right: none;
+    display: inherit;
+    padding: 0px;
+   
 }
 
 a {
@@ -21,52 +25,42 @@ a {
 
 
 ul {
-padding: 0;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-top: 0px;
-margin-left: 62%;
-margin-right: -12px;
-color: grey;   
+color: grey;  
+padding-left: 200px; 
+padding-top:15px ;
+
 }
 
 
-.nav {
+nav {
 padding: 0%;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-background: brown;
+background: white;
 border-bottom: solid #cccccc 1px;
 position: sticky; 
 height: 0%;
 font-family: Georgia;
 }
 
+
 h1 {
     background: #4aaaa5;
     color: white ;
-    padding: 3px;
-    margin-left: 1
-    50px;
+    padding: 5px 3px 5px 3px;
+    margin-left: 190px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    width: 166px
     }
 
- /* BODY */
-body {
-background-image: url(https://github.com/taraDM23/AboutTara/blob/master/assets/images/gravel.png?raw=true);
-margin: 0px;
+ /* media */  
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: lightsalmon;
+    }
 }
-    
-
-
-@media screen and (max-width:570px) {
-[class*="col-"] {
-        width: 100%;
-         }   
-[id="row1"] {
-    padding-left: none;
-        }  
-    }
 
    /* breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -102,9 +96,11 @@ margin: 0px;
     width: 100%;
     }
     
-    
-
-
+/* BODY*/
+body {
+    background-image: url(https://github.com/taraDM23/AboutTara/blob/master/assets/images/gravel.png?raw=true);
+    margin: 0px;
+    }
 
 h2 {
     color: #4aaaa5;
@@ -122,9 +118,8 @@ hr {
     padding: 0;
     }
     
-/* Wrapper*/
 #wrapper {
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -157,10 +152,6 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;  
     overflow: auto;
 }
- 
-#shrink {
-
-}
 
 #row0 {
     padding-bottom: 20px;
@@ -177,7 +168,7 @@ padding-bottom: 50px;
 #bio-image {
     padding-right: 30px;
     height: 200px;
-    width: 250px;
+    width: 300px;
     }
     
 #quote {
@@ -215,7 +206,7 @@ padding: 1% 2% 1% 2%;
 padding-left: 0px;
 }
 
-
+/*
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -228,3 +219,4 @@ padding-left: 0px;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+*/
