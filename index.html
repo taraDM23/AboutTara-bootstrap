@@ -15,86 +15,80 @@
 
 <body>
     <header>
-        <nav>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#"></a>
-                    <h1>Tara de Mel</h1>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01"></div>
+                <h1>Tara de Mel</h1>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <section id=main-contaner>
-        <div class="row">
-            <h2>About Me</h2>
-            <hr />
+    <section class=container id=wrapper>
+        <div class=row>
+            <div class=col>
+                <h2>About Me</h2>
+                <hr />
+                <br>
+            </div>
         </div>
-        <br>
-        
-        <div class="row">
-            <img id="bio-image"
-                src="https://github.com/taraDM23/AboutTara/blob/master/assets/images/unnamed1.jpg?raw=true"
-                alt="My Name">
-
-            <section id="main-bio">
-                <p>Hi - Hola - Sup - Mahalo - Kia Ora - YI'el !!! Welcome to a site dedicated to ME!!! Whhhhhaaaaaa???
-                    Yes
-                    you read
-                    that right!!!
-                    We had to make this site after learning html and css as a class assignment. It's pretty imersive and
-                    frankly I found out many
-                    ways to reach from point A to point B. That being said part of the challenge is to develope code
-                    that
-                    will
-                    withstand time and pass peer review!
-
-                    But I digress - - -
-                </p>
-                <p> Who am I? Lets start with where I'm from - Melboure, Australia, Earth, Solar System, Orion Spiral
-                    Arm,
-                    Milky Way Galaxy, Local Group, Virgo Supercluster, Universe. Which is pretty cool and accurate
-                    directions if you're an alien! I love both cats AND dogs. I'm super blind but that's fine I have
-                    glasses!
-                </p>
-                <p>I like to read - J. R. R. Tolkin, J. K. Rowling and Rick Riordan are some of my favourite authors.
-                    I love comics; Kamala Khan as Ms Marvel is my favourite. I also collect Funko Pops!
+        <div class=row>
+            <div class=col-md-3>
+                <img id="bio-image"
+                    src="https://github.com/taraDM23/AboutTara/blob/master/assets/images/unnamed1.jpg?raw=true"
+                    alt="My Name">
+            </div>
+            <div class=col-md-9>
+                <p>Hi - Hola - Sup - Mahalo - Kia Ora - YI'el !!! Welcome to a site dedicated to ME!!!
+                    Whhhhhaaaaaa??? Yes you read that right!!! We had to make this site after learning bootstrap and
+                    combine it to a past class assignment.
+                    Even though the UI was not diffent the approach did involve a lot of big changes. But I digress - - -
+                    Who am I? Lets start with where I'm from - Melboure, Australia, Earth, Solar System, Orion
+                    Spiral Arm, Milky Way Galaxy, Local Group, Virgo Supercluster, Universe. Which is pretty cool and accurate directions if you're an alien! 
+                    </p>
+            </div>
+        </div>
+        <div class=row>
+            <div class=col>
+                <p>I love both cats AND dogs. I'm super blind but that's fine I have glasses!I like to read - J. R. R. Tolkin, J. K. Rowling and Rick Riordan are some of my favourite
+                    authors. I love comics; Kamala Khan as Ms Marvel is my favourite. I also collect Funko Pops!
                     On top of that I love sci-fi and comedy and anime TV shows. For example New Girl, Parks and
-                    Recreation,
-                    Full
-                    Metal Alchemish, Firefly and Buffy. I'm currently watching RWBY by Rooster Teeth.
+                    Recreation, Full Metal Alchemish, Firefly and Buffy. I'm currently watching RWBY by Rooster Teeth.
                 </p>
                 <p>On a more serious note I have a B.Comm from the University of Melbourne. I have experience as a
                     Product
-                    Manager at a software company. I'm also a certified Scrum Product Owner. So here I am. There isnt
+                    Manager at a software company. I'm also a certified Scrum Product Owner. So here I am. There
+                    isnt
                     much
                     to go on this site yet. But this is an outcome from two weeks of coading background.
                     There's only up from here.
                 </p>
-                <br>
-                <p id=quote>"Time is Money, Money is Power, Power is Pizza, and Pizza is Knowledge - April Ludgate."</p>
-
-            </section>
+                <p>"Time is Money, Money is Power, Power is Pizza, and Pizza is Knowledge - April Ludgate."</p>
+            </div>
         </div>
     </section>
-    <div class="row">
-        <footer>
+
+  <!-- <footer class=row>
+        <div class=col>
             Copyright ©
-        </footer>
-    </div>
+        </div>
+    </footer>
+    --> 
+
 </body>
+
+</html>
