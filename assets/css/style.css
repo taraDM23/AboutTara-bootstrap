@@ -47,7 +47,8 @@ h1 {
     background: #4aaaa5;
     color: white ;
     padding: 3px;
-    margin-left: 50px;
+    margin-left: 1
+    50px;
     }
 
  /* BODY */
@@ -58,10 +59,51 @@ margin: 0px;
     
 
 
-/*@media only screen and (max-width:  992px) {
- {
+@media screen and (max-width:570px) {
+[class*="col-"] {
+        width: 100%;
+         }   
+[id="row1"] {
+    padding-left: none;
+        }  
     }
-*/
+
+   /* breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    
+
+@media screen and (min-width:330px) {
+    [class*="col-"] {
+        width: 100%;
+         }
+    #row1 {
+    padding-left: 0%;
+            }  
+    image {
+        width: 100%;
+    }
+        }
+
+    */
+
+ /* footer */
+.footer {
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    border-top: solid #4aaaa5 8px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    }
+    
+    
+
 
 
 h2 {
@@ -82,7 +124,7 @@ hr {
     
 /* Wrapper*/
 #wrapper {
-    width: 960px;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -95,6 +137,41 @@ hr {
     overflow: auto;   
     font-size: 15px;
     }
+
+/*Portfolio*/
+.image {
+    position: relative;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+.title {
+    position: absolute;
+    top: 75%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    overflow: auto;
+}
+ 
+#shrink {
+
+}
+
+#row0 {
+    padding-bottom: 20px;
+    padding-top: 5px;
+
+}
+#row1 {
+padding-left: 40px;
+padding-bottom: 50px;
+}
+
 
 /* About me*/
 #bio-image {
@@ -137,16 +214,17 @@ padding: 1% 2% 1% 2%;
 .col-auto.my-1 {
 padding-left: 0px;
 }
-/* footer */
 
-footer {
-    text-align: center;
-    border-top: solid #4aaaa5 8px;
-    color: #ccc;
-    background: #666666;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    }
-    
-    
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
