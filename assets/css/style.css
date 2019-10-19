@@ -1,23 +1,9 @@
-@media screen and (min-width: 767px) {
-    .title {
-     width: 94.5%;
-    }
-    #port {
-        width: 100%;
-    }
+@media screen and (max-width: 426px) {
+    .title {width: 94.5%;}
+    #link {text-align: center;}
  }
  
- @media screen and (max-width: 576px) {
-     #link {
-         text-align: center;}
-    .title {
-        width: 92%;
-    }
-    #port {
-        width: 100%;
-    }
- }
-   
+ 
 
 li {
     display: inline;
@@ -60,11 +46,11 @@ nav{
     border-bottom: solid #cccccc 1px;
 }
 #navigation {
-width: 80%;
-
+    width: 100%;
 }
+
 #port {
-    width: 80%;
+    width: 100%;
     height: auto;
     background-color: white;
     padding-top: 13px;   
@@ -79,8 +65,8 @@ h2 {
     
 
 img {
-width: 100%;
-}
+    width: 100%;
+    }
 
 
 body {
@@ -120,7 +106,8 @@ hr {
 
 .title {
     position: absolute;
-    bottom;: 75%;
+    bottom: 20%;
+    padding: 2% 3% 2% 3%;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
