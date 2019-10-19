@@ -1,8 +1,7 @@
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
     .title {width: 94.5%;}
-    #link {text-align: center;}
- }
- 
+     ul {text-align: center;}
+   }
  
 
 li {
@@ -13,7 +12,6 @@ li {
     border-right: solid 1px lightgrey;
     padding-right: 13px;
     padding-left: 13px;
-  
 }
 
 #link {
@@ -130,9 +128,9 @@ col {
 
 
 #bio-image {
-    padding-right: 30px;
-    height: 200px;
-    width: 300px;
+    padding-right: 3px;
+    height: 100%;
+    width: 100%;
     }
     
 #quote {
