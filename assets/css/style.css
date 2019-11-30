@@ -61,11 +61,12 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  padding-bottom: 15px;
 }
 
  .card img {
-	max-width: 100%;
-	height: auto;
+	max-width: 300px;
+	max-height: 200px;
 }
  .card-body {
 	opacity: 0;
@@ -118,12 +119,19 @@ a {
   position: fixed;
   bottom: 0px;
   width: 100%;
-    }
+}
 
+#bio-image {
+  border-radius: 50%;
+  padding-right: 3px;
+  height: 100%;
+  width: 100%;
+}
 
-
-
-
+#quote {
+    text-align: center;
+}
+    
 
 
 
@@ -261,16 +269,6 @@ col {
 }
 
 
-#bio-image {
-    padding-right: 3px;
-    height: 100%;
-    width: 100%;
-    }
-    
-#quote {
-    text-align: center;
-    }
-    
     
 p {
     margin: auto;
