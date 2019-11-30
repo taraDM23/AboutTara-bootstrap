@@ -1,4 +1,103 @@
-@media screen and (max-width: 576px) {
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #efe9e2 50%, #ffafb8	 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+
+.bg-light {
+background-color: #efe9e2!important; 
+border-bottom: 1px solid #c0b8b8; 
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.footer {
+    background-color: #887a7a;
+    color: #cccccc;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    border-top: solid #f36767 8px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 576px) {
     .title {width: 94.5%;}
      ul {text-align: center;}
    }
@@ -9,7 +108,7 @@ li {
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    border-right: solid 1px lightgrey;
+    border-right: solid 1px #f36767;
     padding-right: 13px;
     padding-left: 13px;
 }
@@ -22,26 +121,33 @@ li {
 
 a {
     text-decoration: none;
-    color:#777777; 
+    color: #f36767; 
     font-size: 15px;
 }
 
 ul {
-    color: grey;  
+    color: #f36767;  
     padding-left: 0; 
     padding-top:15px ;
 
 }
+
+#col{
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 #name {
-    background: #4aaaa5;
-    color: white ;
+    background: #f36767;
+    color:#efe9e2 ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 nav{
-    background: white;
-    border-bottom: solid #cccccc 1px;
+    background:#efe9e2;
+    border-bottom: solid #f36767 1px;
 }
 #navigation {
     width: 100%;
@@ -50,12 +156,12 @@ nav{
 #port {
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: #efe9e2;
     padding-top: 13px;   
 }
 
 h2 {
-    color: #4aaaa5;
+    color: #f36767;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:22.5px;
     font-weight: bold; 
@@ -68,18 +174,18 @@ img {
 
 
 body {
-    background-image: url(https://github.com/taraDM23/AboutTara/blob/master/assets/images/gravel.png?raw=true);
+    background-color:#c0b8b8;
     margin: 0px;
     }
 
   
 .footer {
-    background-color: #666666;
+    background-color: #887a7a;
     color: #cccccc;
     text-align: center;
     font-size: 12px;
     padding: 15px;
-    border-top: solid #4aaaa5 8px;
+    border-top: solid #f36767 8px;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -89,7 +195,7 @@ hr {
     display: block;
     height: 2px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ffafb8;
     margin: 1em 0;
     padding: 0;
     }
@@ -107,7 +213,7 @@ hr {
     bottom: 20%;
     padding: 2% 3% 2% 3%;
     background-color: #4aaaa5;
-    color: white;
+    color: #efe9e2;
     text-align: center;
     width: 92%;
     font-family: Georgia, 'Times New Roman', Times, serif;  
@@ -142,7 +248,7 @@ p {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
-    color: #666666;
+    color: #887a7a;
     }
     
 
@@ -150,7 +256,7 @@ p {
 form {
     padding: 2%;
     width: 100%;
-    color: #666666;
+    color: #887a7a;
     font-family: rial, Helvetica, sans-serif;
 }
 
@@ -159,9 +265,9 @@ form {
 }
 
 .btn-primary {
-    background-color: #4aaaa5;
-    color: white;
-    border: solid #4aaaa5 1px;
+    background-color: #ffafb8;
+    color: #efe9e2;
+    border: solid #ffafb8 1px;
     cursor: pointer;
     border-radius: 0px;
     padding: 1% 2% 1% 2%;
@@ -171,3 +277,4 @@ form {
     padding-left: 0px;
 }
 
+ */
