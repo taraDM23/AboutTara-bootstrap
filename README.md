@@ -1,9 +1,9 @@
 # About Me
 
-### Profesional Portfolio of Tara de Mel
+### Professional Portfolio of Tara de Mel
 
 #### Description 
-This site is to be a visual and functional showcase of my abilities as a developer. I have not been down this path long - as I began coading in October of 2019. In this short period I have worked on individual projects and ones within a team. My strongest work can be seen on the portfolio section of this site.
+This site is to be a visual and functional showcase of my abilities as a developer. I have not been down this path long - as I began coding in October of 2019. In this short period I have worked on individual projects and ones within a team. My strongest work can be seen on the portfolio section of this site.
 
 
 #### How to Use
@@ -73,7 +73,7 @@ Site is created with or is linked to projects that use:
 HTML was verified via https://validator.w3.org/nu/ with no warnings.
 
 #### Limitations:
-* The Contact section is desabled as a database has not been linked to the form yet.
+* The Contact section is disabled as a database has not been linked to the form yet.
 
 #### Acknowledgments
 Monash coding Bootcamp academic staff
