@@ -7,17 +7,6 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #efe9e2 50%, #ffafb8	 50%);
@@ -58,6 +47,14 @@ border-bottom: 1px solid #c0b8b8;
 h1 {
   font-family:'Times New Roman', Times, serif;
 }
+
+#row1 {
+  background-color: #E0E0E0; 
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 
 .footer {
